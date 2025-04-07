@@ -132,7 +132,7 @@ while cap.isOpened():
     cv2.rectangle(frame, (roi_incoming_x, roi_incoming_y), (roi_incoming_x + roi_incoming_w, roi_incoming_y + roi_incoming_h), (0, 255, 0), 2)  
     cv2.rectangle(frame, (roi_outgoing_x, roi_outgoing_y), (roi_outgoing_x + roi_outgoing_w, roi_outgoing_y + roi_outgoing_h), (0, 0, 255), 2)  
 
-    cv2.imshow("Vehicle Detection & Count in Direction", frame)
+    cv2.imshow("Vehicle Detection & Count with Direction", frame)
 
     if cv2.waitKey(1) == 27: # Press esc to exit
         break
