@@ -1,12 +1,13 @@
-# Vehicle-Detection
+# Vehicle Detection Projects
 
-This project demonstrates how to perform vehicle detection using the YOLO. The goal is to detect vehicles such as cars, motorcycles, buses, and trucks in a video stream.
+This repository contains multiple vehicle detection and tracking projects built using YOLO and OpenCV.
 
-## Features:
+## Projects
 
-- Detects vehicles such as Car, Motorcycle, Bus, and Truck.
-- Displays bounding boxes around detected vehicles.
-- Shows the confidence score for each detection.
+1. vehicle_detect - Basic vehicle detection in video frames.
+2. vehicle_detect_id - Vehicle detection with unique ID tracking for each vehicle.
+3. vehicle_detect_roi - Vehicle detection within a specific region of interest (ROI).
+4. vehicle_detect_direction - Vehicle detection with direction tracking (incoming and outgoing vehicles).
 
 ## Requirements
 
